@@ -4,7 +4,7 @@ FROM httpd:2.4
 COPY ./index.html /usr/local/apache2/htdocs/
 
 # (Optional) Expose port 80 for HTTP traffic (the default Apache port)
-EXPOSE 80
+EXPOSE 8085
 
 # (Optional) Add any additional commands or configurations here
 
